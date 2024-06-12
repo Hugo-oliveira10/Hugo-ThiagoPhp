@@ -1,0 +1,7 @@
+C:\Users\Tecnico\Desktop\C#-aula0804\CAIXA\CAIXA\bin\Debug\CAIXA.exe.config
+C:\Users\Tecnico\Desktop\C#-aula0804\CAIXA\CAIXA\bin\Debug\CAIXA.exe
+C:\Users\Tecnico\Desktop\C#-aula0804\CAIXA\CAIXA\bin\Debug\CAIXA.pdb
+C:\Users\Tecnico\Desktop\C#-aula0804\CAIXA\CAIXA\obj\Debug\CAIXA.csproj.AssemblyReference.cache
+C:\Users\Tecnico\Desktop\C#-aula0804\CAIXA\CAIXA\obj\Debug\CAIXA.csproj.CoreCompileInputs.cache
+C:\Users\Tecnico\Desktop\C#-aula0804\CAIXA\CAIXA\obj\Debug\CAIXA.exe
+C:\Users\Tecnico\Desktop\C#-aula0804\CAIXA\CAIXA\obj\Debug\CAIXA.pdb
