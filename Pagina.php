@@ -1,12 +1,7 @@
-<?php
-
-$dsn;
-$username;
-$password;
-$conecxao = new PDO($dsn, $username, $password);
-$stmt = $conexao->query("SELECT * FROM Alunos");
-while ($linha = $stmt->fetch()) {
-    echo "ID: " . $linha['id'] . ", Nome: " . $linha['nome'] . "<br>";
-
-    echo "Erro: " . $e->getMessage();
-};
+<?php require_once "Layout.php";
+$layout = new Layout();
+$layout->inc("cabecalho.php");
+$layout->inc("conteudo.php");
+$layout->inc("navbar.php");
+$layout->inc("rodape.php");
+?>

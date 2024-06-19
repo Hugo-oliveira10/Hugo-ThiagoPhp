@@ -1,21 +1,8 @@
-<?php 
-include "Dao.php";
-
-// $id=$_GET['id'];
-$id=8;
-$dao = new Dao();
-$dados = $dao->exibirUsuario($id);
-$linha = $dados->fetch();
-
+<?php require_once "Layout.php";
+$layout = new Layout();
+$layout->inc("cabecalho.php");
+$layout->inc("ExibirUsuario.php");
+$layout->inc("navbar.php");
+$layout->inc("rodape.php");
 ?>
-<div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Dados do usuário</h5>
-    <p class="card-text">
-      Usuário:<?php echo $linha["nome"];?><br>
-      Senha: <?php echo $linha["senha"];?><br>
-    </p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+  

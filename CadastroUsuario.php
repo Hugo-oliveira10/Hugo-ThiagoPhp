@@ -1,7 +1,4 @@
-<?php
-require_once "Dao.php";
-
-?>
+<?php require_once "Dao.php"; ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
