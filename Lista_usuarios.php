@@ -1,7 +1,7 @@
 <?php
-require_once "Dao.php";
-$dao = new Dao();
-$dados = $dao->listar();
+require_once "Dao.php"; // Inclui o arquivo que contém a definição da classe Dao
+$dao = new Dao(); // Cria uma nova instância da classe Dao
+$dados = $dao->listar(); // Chama o método listar() da classe Dao para obter os dados dos usuários
 ?>
 
 <div class="container mt-3">
@@ -17,10 +17,10 @@ $dados = $dao->listar();
         <tbody>
             <?php while ($linha = $dados->fetch()) { ?>
                 <tr>
-                    <th scope="row"><?php echo $linha['id']; ?></th>
-                    <td><?php echo $linha['usuario']; ?></td>
-                    <td><?php echo $linha['senha']; ?></td>
-                    <td><a href="exibirUsuario.php?id=<?php echo $linha['id']; ?>">Ver Detalhes</a></td>
+                    <th scope="row"><?php echo $linha['id']; ?></th> <!-- Exibe o ID do usuário -->
+                    <td><?php echo $linha['usuario']; ?></td> <!-- Exibe o nome de usuário -->
+                    <td><?php echo $linha['senha']; ?></td> <!-- Exibe a senha do usuário -->
+                    <td><a href="exibirUsuario.php?id=<?php echo $linha['id']; ?>">Ver Detalhes</a></td> <!-- Cria um link para exibir detalhes do usuário -->
                 </tr>
             <?php } ?>
         </tbody>
