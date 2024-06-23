@@ -15,6 +15,8 @@
         <input type="password" id="senha" name="senha" required><br>
         
         <button type="submit">Entrar</button>
+
+         <button type="submit">Cadastre-se</button>
     </form>
 </body>
 </html>
