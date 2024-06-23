@@ -2,17 +2,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- Define o conjunto de caracteres UTF-8 para suportar caracteres especiais -->
     <meta charset="UTF-8">
-    
-    <!-- Configura a escala inicial para dispositivos móveis -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Título da página exibido na aba do navegador -->
+    <link rel="stylesheet" href="styles2.css">
     <title>Cadastro de Usuário</title>
 </head>
 <body>
-    <!-- Título da seção de cadastro -->
     <h2>Cadastro de Usuário</h2>
     
     <!-- Formulário de cadastro -->
@@ -30,7 +25,7 @@
         <input type="password" id="senha" name="senha" required><br>
         
         <!-- Botão para enviar o formulário -->
-        <button type="submit">Cadastrar</button>
+        <button type="submit">Concluir Cadastro</button>
     </form>
 </body>
 </html>

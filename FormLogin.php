@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h2>Login</h2>
@@ -15,8 +16,9 @@
         <input type="password" id="senha" name="senha" required><br>
         
         <button type="submit">Entrar</button>
-
-         <button type="submit">Cadastre-se</button>
+        <a href="CadastroUsuario.php">
+            <button type="button">Cadastre-se</button>
+        </a>
     </form>
 </body>
 </html>
