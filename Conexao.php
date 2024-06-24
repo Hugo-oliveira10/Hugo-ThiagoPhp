@@ -7,7 +7,7 @@ $dbname = "myDB"; // Nome do banco de dados a ser utilizado
 
 try {
     // Criação de uma nova conexão PDO com o MySQL
-    $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+    $conn = new PDO("mysql:host=$servername;dbname=$myDB", $username, $password);
     
     // Definição do modo de erro para lançar exceções em caso de erros
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
