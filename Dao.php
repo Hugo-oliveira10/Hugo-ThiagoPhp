@@ -1,7 +1,7 @@
 <?php
 class Dao {
 
-private $dsn = "mysql:host=localhost;dbname=banco";
+private $dsn = "mysql:host=localhost;dbname=myBD";
 private $username = "root";
 private $password = "";
 private $pdo;
